@@ -7,6 +7,11 @@ body {
 svg {
   width: 100px;
   height: 100px;
+  pointer-events: none;
+}
+
+object {
+  pointer-events: none;
 }
 
 .header {
