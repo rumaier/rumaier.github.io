@@ -131,7 +131,7 @@ body {
   height: 150px;
 }
 
-.wrapper .card-wrapper svg {
+.wrapper .card-wrapper object {
   width: 100px;
   height: auto;
   transition: all 0.25s ease;
@@ -150,7 +150,7 @@ body {
   top: -5px; 
 }
 
-.card-wrapper:hover svg {
+.card-wrapper:hover object {
   scale: 1.1;
 }
 
