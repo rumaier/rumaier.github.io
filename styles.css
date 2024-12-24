@@ -8,6 +8,7 @@ svg {
   width: 100px;
   height: 100px;
   pointer-events: none;
+  fill: #fff;
 }
 
 object {
@@ -110,7 +111,7 @@ object {
   filter: blur(2px);
 }
 
-.wrapper .card {
+.card {
   width: 150px;
   height: 150px;
   border-radius: 7px;
@@ -124,10 +125,11 @@ object {
   position: relative;
   top: -10px;
   letter-spacing: 1px;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 8px;
+  border-radius: 25px;
   color: #1f1f1f;
   background-color: #f1f1f1;
+  font-size: 0.9rem;
   font-weight: 600;
   transition: all 0.25s ease-in-out;
   opacity: 0;
@@ -145,7 +147,6 @@ object {
   width: 100px;
   height: auto;
   transition: all 0.25s ease;
-  fill: #f1f1f1;
   background-color: transparent;
 }
 
