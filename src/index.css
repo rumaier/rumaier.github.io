@@ -1,0 +1,58 @@
+:root[data-mantine-color-scheme='dark'] {
+  color-scheme: dark;
+  --mantine-color-body: #141215;
+  --mantine-color-text: var(--mantine-color-brand-3);
+  --mantine-color-anchor: var(--mantine-color-text);
+}
+
+#root {
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.brand-logo {
+  display: block;
+  object-fit: contain;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  padding: 20px 20px 68px;
+}
+
+.construction-panel {
+  width: min(100%, 34rem);
+  padding: clamp(1.5rem, 5vw, 2.5rem);
+  background: transparent;
+  border-color: rgb(241 241 241 / 10%);
+  border-radius: 3px;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 17%);
+}
+
+.construction-panel h1 {
+  color: var(--mantine-color-white);
+  text-transform: uppercase;
+}
+
+.construction-icon {
+  color: var(--mantine-color-brand-7);
+}
+
+.store-button {
+  --button-color: var(--mantine-color-text);
+  --button-bg: rgb(114 76 157 / 20%);
+  --button-hover: rgb(114 76 157 / 40%);
+  --button-bd: 1px solid var(--mantine-color-brand-7);
+  height: auto;
+  padding: 6px 18px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--mantine-color-text);
+  outline-offset: 3px;
+}
